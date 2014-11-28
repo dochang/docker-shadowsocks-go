@@ -13,6 +13,7 @@ EOF
 	ss-local --help
 	echo >&2
 	ss-server --help
+	echo >&2
 	exit 0
 }
 
