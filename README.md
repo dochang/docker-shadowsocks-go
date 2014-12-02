@@ -4,7 +4,7 @@ Docker shadowsocks-go
 build
 -----
 
-    ./build.sh
+    docker build .
 
 run
 ---
