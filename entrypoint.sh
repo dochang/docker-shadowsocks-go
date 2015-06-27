@@ -6,13 +6,13 @@ set -e
 	set +e
 	cat <<EOF >&2
 
-Usage: ss-[local|server]
--------------------------
+Usage: shadowsocks-[local|server]
+---------------------------------
 
 EOF
-	ss-local --help
+	shadowsocks-local --help
 	echo >&2
-	ss-server --help
+	shadowsocks-server --help
 	echo >&2
 	exit 0
 }
@@ -24,7 +24,7 @@ conf_dir=/etc/shadowsocks
 conf=${conf_dir}/config.json
 
 case $(basename "${cmd}") in
-ss-local|ss-server)
+shadowsocks-local|shadowsocks-server)
 	[ ! -e "${conf}" ] || exec "${cmd}" -c "${conf}" "$@"
 	;;
 esac

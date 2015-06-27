@@ -9,5 +9,5 @@ build
 run
 ---
 
-    docker run -d -v /confdir:/etc/shadowsocks dochang/shadowsocks-go:latest ss-local|ss-server [...]
+    docker run -d -v /confdir:/etc/shadowsocks dochang/shadowsocks-go:latest shadowsocks-local|shadowsocks-server [...]
 
