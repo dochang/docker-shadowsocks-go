@@ -1,5 +1,6 @@
-shadowsocks-local
-shadowsocks-server
+slim/shadowsocks-local
+slim/shadowsocks-server
+slim/entrypoint.sh
 
 # Created by https://www.gitignore.io
 
