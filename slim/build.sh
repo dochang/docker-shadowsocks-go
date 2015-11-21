@@ -11,4 +11,4 @@ docker rm --force ${container_id}
 
 cp ../entrypoint.sh entrypoint.sh
 
-docker build --tag=dochang/shadowsocks-go:slim .
+docker build --tag=dochang/shadowsocks-go:slim --no-cache .
