@@ -7,7 +7,7 @@ export SHADOWSOCKS_GO_VERSION=1.1.4
 export GOPATH=/go
 export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
 
-apk add --update-cache --virtual shadowsocks-go-dependencies git
+apk add --no-cache --virtual shadowsocks-go-dependencies git
 
 mkdir -p "${GOPATH}/src" "${GOPATH}/bin"
 
