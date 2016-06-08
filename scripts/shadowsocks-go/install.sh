@@ -2,7 +2,7 @@
 
 set -ex
 
-export SHADOWSOCKS_GO_VERSION=1.1.4
+export SHADOWSOCKS_GO_VERSION=1.1.5
 
 export GOPATH=/go
 export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
