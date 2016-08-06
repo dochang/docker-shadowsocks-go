@@ -3,7 +3,8 @@ Docker shadowsocks-go
 
 [![Docker Stars](https://img.shields.io/docker/stars/dochang/shadowsocks-go.svg)](https://hub.docker.com/r/dochang/shadowsocks-go/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/dochang/shadowsocks-go.svg)](https://hub.docker.com/r/dochang/shadowsocks-go/)
-[![](https://badge.imagelayers.io/dochang/shadowsocks-go:latest.svg)](https://imagelayers.io/?images=dochang/shadowsocks-go:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/dochang/shadowsocks-go:latest.svg)](http://microbadger.com/images/dochang/shadowsocks-go:latest "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/dochang/shadowsocks-go:latest.svg)](http://microbadger.com/images/dochang/shadowsocks-go:latest "Get your own version badge on microbadger.com")
 
 build
 -----
